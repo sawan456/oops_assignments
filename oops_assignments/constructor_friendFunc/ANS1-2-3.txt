@@ -1,0 +1,63 @@
+------------------------------ ANS 1: ------------------------------
+
+i)
+    int main(){
+
+    Seminar s1;
+    Seminar(2);
+
+    }
+
+ii)
+    It’s a Destructor.
+    It get called after completion of Constructor call or object get out of scope.
+
+
+iiI)
+    Function 1 is a default Constructor and Function 3 is a Parameterized Constructor.
+    Concept is constructor overloading.
+
+
+
+------------------------------ ANS 2: ------------------------------
+i)
+    Test obj1;               
+    Test obj2("Human Values"); 
+    Test obj3(77);           
+    Test obj4("Data Structure", 99);
+
+ii) 
+    Concept demonstrated is Constructor Overloading.
+
+------------------------------ ANS 3: ------------------------------
+
+i) Sample::Sample() {
+    x = 0;
+    y = 0.0;
+    cout << x << endl << y << endl;
+}
+
+
+ii)  Sample::Sample(int x){
+
+    this->x=x;
+    this->y=0;
+    cout<<x<<endl<<y;
+    }
+
+    int main(){
+    Sample(2);
+    }
+
+iii)  Sample::Sample(int x, double y){
+
+    this->x=x;
+    this->y=y;
+    cout<<x<<endl<<y;
+    }
+
+    int main(){
+    Sample(2,4.1);
+
+    }
+
